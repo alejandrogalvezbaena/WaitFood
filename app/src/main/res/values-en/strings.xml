@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WaitFood</string>
+    <string name="txvForgetPassword"><u>Forget Password?</u>\n</string>
+    <string name="edtPassword">Password</string>
+    <string name="txvSigIn"><u>Sig In</u>\n</string>
+    <string name="btnLogIn">Log In</string>
+    <string name="btnLogInGoogle">Log In with GOOGLE</string>
+    <string name="toolbarExplorerName">Explore</string>
+    <string name="toolbarAddProductName">Add Product</string>
+    <string name="toolbarNewOrderName">New Order</string>
+    <string name="toolbarProfileName">Profile</string>
+    <string name="txvTipeUser">Client</string>
+    <string name="txvInformationUser">Information</string>
+</resources>

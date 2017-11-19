@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imgMenuWidth">100dp</dimen>
+    <dimen name="imgMenuHeight">100dp</dimen>
+    <dimen name="letter_icon_size">48dp</dimen>
+    <dimen name="list_top_padding">8dp</dimen>
+    <dimen name="text_secundary">8sp</dimen>
+    <dimen name="text_primary">16sp</dimen>
+    <dimen name="text_dependency">32sp</dimen>
+    <dimen name="text_product">20sp</dimen>
+</resources>

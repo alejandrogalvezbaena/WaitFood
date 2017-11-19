@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WaitFood</string>
+    <string name="edtEmail" translatable="false">Email</string>
+    <string name="edtPassword">Contraseña</string>
+    <string name="txvSigIn"><u>Registrarse</u>\n</string>
+    <string name="btnLogIn">Acceder</string>
+    <string name="btnLogInGoogle">Acceder con GOOGLE</string>
+    <string name="txvForgetPassword"><u>¿Olvido Contraseña?</u></string>
+    <string name="toolbarExplorerName">Explorar</string>
+    <string name="toolbarAddProductName">Añadir Producto</string>
+    <string name="toolbarNewOrderName">Nuevo Pedido</string>
+    <string name="toolbarProfileName">Perfil</string>
+    <string name="txvTipeUser">Cliente</string>
+    <string name="txvInformationUser">Informacion</string>
+</resources>

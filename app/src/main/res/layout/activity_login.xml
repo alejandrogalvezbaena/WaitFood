@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txvWait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="WAIT"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="45sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="109dp"
+            android:layout_height="82dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/waitfood_icon" />
+
+        <TextView
+            android:id="@+id/txvFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FOOD"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="45sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/edtEmail"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/edtPassword"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/txvForgetPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/txvForgetPassword"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="textEnd"/>
+
+        <TextView
+            android:id="@+id/txvSigIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/txvSigIn"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="textEnd"/>
+
+        <Button
+            android:id="@+id/btnLogIn"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/btnLogIn" />
+
+        <Button
+            android:id="@+id/btnLogInGoogle"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:drawableRight="@drawable/ic_google"
+            android:text="@string/btnLogInGoogle" />
+
+    </LinearLayout>
+</android.support.v7.widget.LinearLayoutCompat>
